@@ -1,0 +1,9 @@
+.MuiDrawer-root > .MuiPaper-root {
+    height: calc(25% - 56px);
+    overflow: 'visible';
+}
+
+.MuiPaper-root > .MuiBox-root {
+    height: calc(25% - 56px);
+    overflow: 'visible';
+}
