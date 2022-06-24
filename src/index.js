@@ -4,11 +4,13 @@ import './index.css';
 import Drawer from './Drawer/Drawer';
 import HolaDrawer from './Drawer/HolaDrawer'
 import reportWebVitals from './reportWebVitals';
+import NodeContainer from './NodeExample/NodeContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Drawer />
+    <NodeContainer/>
+    <Drawer/>
   </React.StrictMode>
 );
 
